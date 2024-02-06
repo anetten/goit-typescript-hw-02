@@ -1,6 +1,10 @@
-let some:unknown;
-some = 'Text';
-let str: string;
-str = some;
+let some: unknown;
+some = "Text";
+
+if (typeof some === "string") {
+  let str: string = some;
+}
 
 export {};
+
+//done
