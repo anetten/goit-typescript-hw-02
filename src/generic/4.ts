@@ -4,7 +4,7 @@
 */
 
 interface Props {
-  title?: string;
+  title: string;
 }
 
 class Component<T extends Props> {
